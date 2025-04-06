@@ -69,3 +69,41 @@ nav {
     margin-top: 1.2em;
     margin-bottom: 0.5em;
   }
+
+  /************************PAGINA CONTACTO********************/
+  #MainContacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #CajaContacto , #CajaMapa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*diseño caja*/
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 40vw;
+
+  }
+  #CajaContacto h2, #CajaMapa h2{
+    color: #588157;
+    margin-top: 1.2em;
+    margin-bottom: 15px;
+  }
+  #CajaContacto p{
+    font-weight: bold;
+  }
+  #listaContacto{
+    list-style: none;
+    padding-left:0;
+  }
+  #listaContacto li{
+    padding: 8px;
+    
+  }
