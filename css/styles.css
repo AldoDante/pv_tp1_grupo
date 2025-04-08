@@ -141,6 +141,10 @@ form button[type="submit"] {
   min-height: 100vh; /* 100% de la altura de la ventana */
 }
 
+
+
+
+
  
 footer {
     background-color: #333;
@@ -188,17 +192,6 @@ footer {
   border-radius: 15px;
 }
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  padding: 10px;
-  flex-wrap: wrap;
-  height: 100vh;
-  box-sizing: border-box;
-}
-
 a{
   text-decoration: none;
   color: #C1440E;
@@ -212,6 +205,16 @@ ul{
   padding: 0;
   margin: 0;
 }
+.ul_museos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 
 .museo{
   border: 3px solid rgb(181, 132, 8);
