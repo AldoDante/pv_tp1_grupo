@@ -16,35 +16,55 @@
         <title>Document</title>
     </head>
 <body>
-    <header>
-        <!-- Estilo en Linea -->
-        <img src="./static/images/logos.png" alt="Logo de la provincia de Jujuy" width="200" height="100">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./museos.html">Museos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h2>Contacto</h2>
-        <p>Puedes comunicarte con nosotros a través de:</p>
-        <ul>
-            <li>Correo: <a href="#">grupo_pv_nro@gmail.com</a></li>
-            <li>Teléfono: <a href="#">+54 3885123456</a></li>
-            <li>Dirección: Calle Falsa 123, Jujuy, Argentina</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Ubicación</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7279.066168447201!2d-65.29777698544959!3d-24.188102621646077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f5bca584281%3A0xb1d519d50cac526d!2sFacultad%20de%20Ingenier%C3%ADa%20-%20UNJu!5e0!3m2!1ses-419!2sar!4v1743279109710!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    <div class="wrapper">
+        <header>
+            <!-- Estilo en Linea -->
+            <img src="./static/images/logos.png" alt="Logo de la provincia de Jujuy" width="200" height="100">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./museos.html">Museos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="MainContacto">
+            <section id="formularioContacto">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para ayudarte. Puedes escribirnos usando el formulario, o contactarnos por otros medios.</p>
             
-        </iframe>
-    </section>
-    <footer>
-        <p>Grupo nro... Programacion Visual - APU - Facultad de Ingenieria &copy; 2025 </p>
-    </footer>
-
+                <div class="botones-contacto">
+                    <button>💬 Vía Chat</button>
+                    <button>📞 Vía Llamada</button>
+                </div>
+            
+                <h3>📧 Vía Formulario</h3>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+    
+        </main>
+        <footer>
+            <div class="footer-logo">
+                <img src="./static/images/logos.png" alt="Logo de Jujuy">
+            </div>
+            <div class="footer-info">
+                <p>Grupo: de 17 Comisión 3 - Programación Visual</p>
+                <p>Facultad de Ingeniería - APU</p>                
+                <p>&copy; 2025 - Todos los derechos reservados</p>
+            </div> 
+        </footer>
+    </div>
+    
 </body>
 </html>
