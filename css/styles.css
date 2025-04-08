@@ -93,6 +93,9 @@ nav {
   margin-bottom: 15px;
   text-align: center;
 }
+#formularioContacto h2 {
+  color: #C1440E;
+}
 
 .botones-contacto {
   display: flex;
