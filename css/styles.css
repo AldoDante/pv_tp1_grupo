@@ -93,3 +93,87 @@ nav {
     font-size: 0.9rem;
     line-height: 1.6;
 }
+
+/* estilos para Museos */
+
+.mtitulo{
+  font-family: moonserrat;
+  color: #C1440E; 
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;  
+  /* margin: auto; */
+  border: 3px solid rgb(181, 132, 8);
+  padding: 25px;
+  width: 400px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  flex-wrap: wrap;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #C1440E;
+  font-family: monserrat;
+  font-size: 30px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+.museo{
+  border: 3px solid rgb(181, 132, 8);
+  border-radius: 30px;
+  padding: 30px 50px;
+  margin: 10px;
+  width: 500px; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+  justify-content: center;
+  /* margin: 40px auto; */
+  flex-direction: column;
+}
+
+.museo img{
+  width: 100%;
+  height: 300px;
+  border-radius:10px;
+  margin-bottom: 20px ;
+}
+
+.icono{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 90px;
+  right: 170px;
+}
+.icono1{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 90px;
+  left: 170px;
+}
